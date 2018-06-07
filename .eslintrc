@@ -1,6 +1,7 @@
 {
   "env": {
-    "browser": true
+    "browser": true,
+    # "es6": true # Pour éviter l'erreur 'unexpected token' du premier 'let'
   },
   "extends": "eslint:recommended",
   "rules": {
@@ -11,4 +12,7 @@
     "eqeqeq": "error",
     "no-else-return": "error"
   },
+  "parserOptions": {
+    "ecmaVersion": 6 # indique que l'on écrit en ES6
+  }
 }
