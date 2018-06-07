@@ -1,0 +1,7 @@
+#resultExo3 .box {
+  width: 40px;
+  height: 40px;
+  background-color: skyblue;
+  margin: 2px;
+  display: none;
+}

@@ -3,7 +3,7 @@
 var items = ['Sunglasses', 'Suit', 'Business card', 'Jet ski'];
 
 
-var result = document.getElementById('result');
+var result = document.getElementById('resultExo1');
 
 items.forEach(function(item) {
   var li = document.createElement('li');
